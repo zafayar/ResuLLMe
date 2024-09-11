@@ -1,5 +1,6 @@
 # Base image
-FROM ubuntu:22.04
+#FROM ubuntu:22.04
+FROM python:3.10
 
 # Working directory, Streamlit does not work at root
 WORKDIR /app
